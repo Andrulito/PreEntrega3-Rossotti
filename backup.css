@@ -1,0 +1,187 @@
+/*copia del css por si lo rompo con sass*/
+
+body{
+    font-family: Arial;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url(../Imagenes/foto_fondo.png);*/
+}
+
+.nav_vete{
+    background-color: rgb(217,82,43);;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 80px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction:column;
+    }
+    nav{
+        padding: 10px;
+    }
+}
+
+
+/*PARTE DEL INDEX*/
+
+p{
+    font-size: medium;
+    
+}
+
+
+
+
+
+
+h3 {
+    
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 15rem;
+
+}
+
+.vision img{
+    width: 480px;
+    height: 360px;
+    float: left;
+}
+.vision{
+    background-color: rgb(255, 255, 255);
+    border: 10px 10px 10px 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+}
+
+.ubicacion iframe{
+    float: left;
+    margin-right: 50px;
+}
+
+.ubicacion{
+    background-color: rgb(255, 255, 255);
+    border: 10px 10px 10px 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+}
+
+/*Aca esta la parte de servicios*/
+
+.Atencion_Veterinaria{
+    background-color: rgb(255, 255, 255);
+    border: 10px 10px 10px 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Atencion_Veterinaria img{
+    width: 308px;
+    height: 180px;
+    float: right;
+}
+
+.Laboratorio{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Laboratorio img{
+    width: 308px;
+    height: 180px;
+    float: left;
+}
+
+.Farmacia{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Farmacia img{
+
+    float: right;
+}
+
+.Accesorios{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Accesorios img{
+    width: 308px;
+    height: 180px;
+    float: left;
+}
+
+/*Aca estea la parte de Quienes Somos*/
+
+.Doctora{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.Doctora img{
+    width: 333px;
+    height: 235px;
+    float: left;
+}
+
+.Equipo{
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        background-color: rgb(255, 255, 255);
+}
+
+.imagenes img{
+    width: 333px;
+    height: 235px;
+    margin-left: 200px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/*Aca esta la parte de Contacto*/
+
+
+
+
+
+
+
